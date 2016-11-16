@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class ItemSpawn : MonoBehaviour {
-	public float delay = 0.1f;
+	Random rnd = new Random ();
+
+	public float delay = 5f; //randomize
 	public GameObject item;
 	// Use this for initialization
 	void Start () {
@@ -12,7 +14,8 @@ public class ItemSpawn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Spawn () {
-		Instantiate(item, new Vector3(-1, 0, 0), Quaternion.identity);
-	
+		Instantiate(item, new Vector3(5.64f, -0.13f, 0), Quaternion.identity);
+
 	}
+
 }
