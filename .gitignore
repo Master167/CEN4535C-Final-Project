@@ -4,7 +4,7 @@
 Prototype/[Tt]emp/
 Prototype/[Oo]bj/
 Prototype/[Bb]uild
-Prototype//[Ll]ibrary/
+Prototype/[Ll]ibrary/
 sysinfo.txt
 *.stackdump
  
@@ -13,15 +13,15 @@ sysinfo.txt
 # ============================================= #
 [Ee]xported[Oo]bj/
 .vs/
-/*.userprefs
-/*.csproj
-/*.pidb
-/*.suo
-/*.sln*
-/*.user
-/*.unityproj
-/*.booproj
-/.idea*/
+Prototype/*.userprefs
+Prototype/*.csproj
+Prototype/*.pidb
+Prototype/*.suo
+Prototype/*.sln
+Prototype/*.user
+Prototype/*.unityproj
+Prototype/*.booproj
+Prototype/.idea*/
  
 # ============ #
 # OS generated #
