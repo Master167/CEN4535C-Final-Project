@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		Debug.Log ("Bump");
 		if (collision.gameObject.CompareTag ("Ground")) {
 			isGrounded = true;
 		}

@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\OutsideInput.cs" />
      <Compile Include="Assets\Scripts\OutsideInputSlider.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />

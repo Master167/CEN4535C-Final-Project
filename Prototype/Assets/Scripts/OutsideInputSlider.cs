@@ -7,11 +7,17 @@ public class OutsideInputSlider : MonoBehaviour {
 	public Slider slider;
 	public float level = 0.5f;
 
+	private GameObject mainMenu;
 	private float[] inputs = new float[10];
 
-	// Use this for initialization
 	void Start () {
-		//slider = (Slider) GameObject.Find ("Slider");
+		mainMenu = GameObject.Find("GameManager");
+		MainMenu menu = mainMenu.GetComponent<MainMenu> ();
+		if (menu.isHard) {
+			level = 0.2f;
+		} else {
+			level = 0.5f;
+		}
 	}
 
 	void FixedUpdate () {
