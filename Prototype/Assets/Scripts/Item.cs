@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Item : MonoBehaviour {
 
-	public float speed = 1f;
+	private float speed = Random.Range(.01f, .06f);
 
 	// Use this for initialization
 	void Start () {

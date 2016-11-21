@@ -1,21 +1,52 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class ItemSpawn : MonoBehaviour {
-	Random rnd = new Random ();
-
-	public float delay = 5f; //randomize
 	public GameObject item;
-	// Use this for initialization
-	void Start () {
-		InvokeRepeating("Spawn", delay, delay);
-	
+
+	public float maxTime = 100;
+	public float minTime = 50;
+
+	//current time
+	private float time;
+
+	//The time to spawn the object
+	private float spawnTime;
+
+	void Start(){
+		SetRandomTime();
+		time = minTime;
 	}
-	
-	// Update is called once per frame
-	void Spawn () {
+
+	void FixedUpdate(){
+
+		//Counts up
+		time += Time.deltaTime;
+
+		//Check if its the right time to spawn the object
+		if(time >= spawnTime){
+			Spawn();
+			SetRandomTime();
+		}
+
+	}
+
+
+	//Spawns the object and resets the time
+	void Spawn(){
+		time = 0;
 		Instantiate(item, new Vector3(5.64f, -0.13f, 0), Quaternion.identity);
 
+		;
+	}
+
+	//Sets the random time between minTime and maxTime
+	void SetRandomTime(){
+		spawnTime = UnityEngine.Random.Range(minTime, maxTime);
 	}
 
 }
+
+
+
