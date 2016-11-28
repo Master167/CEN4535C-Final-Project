@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour {
 
 	private Button easyButton;
 	private Button hardButton;
+	private GameObject player;
 
 	public bool isHard = true;
 
@@ -20,14 +21,18 @@ public class MainMenu : MonoBehaviour {
 			hardButton = GameObject.Find ("Hard").GetComponent<Button> ();
 			easyButton.onClick.AddListener (loadEasy);
 			hardButton.onClick.AddListener (loadHard);
-		} else {
-			Debug.Log (scene.name);
 		}
+
+		SceneManager.sceneLoaded += getPlayerObject();
+		SceneManager.sceneUnloaded += getScore();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	 public void getPlayerObject() {
+		Debug.Log ("Hello");
+	}
+
+	public void getScore() {
+		Debug.Log ("Goodbye");
 	}
 
 	void loadEasy() {
