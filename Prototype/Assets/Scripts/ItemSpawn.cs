@@ -7,6 +7,10 @@ public class ItemSpawn : MonoBehaviour {
 	public GameObject middleTier;
 	public GameObject bottomTier;
 
+	public float topTierYOffset = 1.43f;
+	public float middleTierYOffset = 0.57f;
+	public float bottomTierYOffset = -1.43f;
+
 	public float maxTime = 30f;
 	public float minTime = 5f;
 
@@ -42,9 +46,9 @@ public class ItemSpawn : MonoBehaviour {
 	void Spawn(){
 		time = 0;
 
-		Instantiate(topTier, new Vector3(5.64f, -0.13f, 0), Quaternion.identity);
-		Instantiate(middleTier, new Vector3(5.64f, -3.13f, 0), Quaternion.identity);
-		Instantiate(bottomTier, new Vector3(5.64f, -5.13f, 0), Quaternion.identity);
+		Instantiate(topTier, new Vector3(10f, transform.position.y + topTierYOffset, 0), Quaternion.identity);
+		Instantiate(middleTier, new Vector3(10f, transform.position.y + middleTierYOffset, 0), Quaternion.identity);
+		Instantiate(bottomTier, new Vector3(10f, transform.position.y + bottomTierYOffset, 0), Quaternion.identity);
 	}
 
 	//Sets the random time between minTime and maxTime
