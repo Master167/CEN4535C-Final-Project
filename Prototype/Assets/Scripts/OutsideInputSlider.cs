@@ -19,7 +19,7 @@ public class OutsideInputSlider : MonoBehaviour {
 		//} else {
 			//this.inputs[this.index] = 0.5f;
 		//}
-		this.inputs[this.index] = 1f;
+		this.inputs[this.index] = 0.5f;
 		InvokeRepeating ("GetInput", 0f, 1.0f);
 	}
 
