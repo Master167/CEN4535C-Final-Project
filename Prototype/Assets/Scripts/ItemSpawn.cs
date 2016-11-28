@@ -44,7 +44,7 @@ public class ItemSpawn : MonoBehaviour {
 
 		Instantiate(topTier, new Vector3(5.64f, -0.13f, 0), Quaternion.identity);
 		Instantiate(middleTier, new Vector3(5.64f, -3.13f, 0), Quaternion.identity);
-
+		Instantiate(bottomTier, new Vector3(5.64f, -5.13f, 0), Quaternion.identity);
 	}
 
 	//Sets the random time between minTime and maxTime
