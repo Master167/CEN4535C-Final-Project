@@ -5,11 +5,13 @@ using System;
 public class ItemSpawn : MonoBehaviour {
 	public GameObject item;
 
-	public float maxTime = 100;
-	public float minTime = 50;
+	public float maxTime = 30f;
+	public float minTime = 5f;
+
 
 	//current time
 	private float time;
+
 
 	//The time to spawn the object
 	private float spawnTime;
@@ -17,6 +19,7 @@ public class ItemSpawn : MonoBehaviour {
 	void Start(){
 		SetRandomTime();
 		time = minTime;
+
 	}
 
 	void FixedUpdate(){
@@ -36,9 +39,10 @@ public class ItemSpawn : MonoBehaviour {
 	//Spawns the object and resets the time
 	void Spawn(){
 		time = 0;
+
 		Instantiate(item, new Vector3(5.64f, -0.13f, 0), Quaternion.identity);
 
-		;
+
 	}
 
 	//Sets the random time between minTime and maxTime
