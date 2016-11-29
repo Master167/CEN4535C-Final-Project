@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 0fb61a27f207a4148abee87f528f927a
+timeCreated: 1480347368
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rmx2se-fish_0
+    21300002: rmx2se-fish_1
+    21300004: rmx2se-fish_2
+    21300006: rmx2se-fish_3
+    21300008: rmx2se-fish_4
+    21300010: rmx2se-fish_5
+    21300012: rmx2se-fish_6
+    21300014: rmx2se-fish_7
+    21300016: rmx2se-fish_8
+    21300018: rmx2se-fish_9
+    21300020: rmx2se-fish_10
+    21300022: rmx2se-fish_11
+    21300024: rmx2se-fish_12
+    21300026: rmx2se-fish_13
+    21300028: rmx2se-fish_14
+    21300030: rmx2se-fish_15
+    21300032: rmx2se-fish_16
+    21300034: rmx2se-fish_17
+    21300036: rmx2se-fish_18
+    21300038: rmx2se-fish_19
+    21300040: rmx2se-fish_20
+    21300042: rmx2se-fish_21
+    21300044: rmx2se-fish_22
+    21300046: rmx2se-fish_23
+    21300048: rmx2se-fish_24
+    21300050: rmx2se-fish_25
+    21300052: rmx2se-fish_26
+    21300054: rmx2se-fish_27
+    21300056: rmx2se-fish_28
+    21300058: rmx2se-fish_29
+    21300060: rmx2se-fish_30
+    21300062: rmx2se-fish_31
+    21300064: rmx2se-fish_32
+    21300066: rmx2se-fish_33
+    21300068: rmx2se-fish_34
+    21300070: rmx2se-fish_35
+    21300072: rmx2se-fish_36
+    21300074: rmx2se-fish_37
+    21300076: rmx2se-fish_38
+    21300078: rmx2se-fish_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rmx2se-fish_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 197
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 197
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 163
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_8
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 163
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 181
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 181
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 181
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 129
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 129
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 149
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 149
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_17
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 149
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 95
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 95
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 96
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 96
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 61
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 61
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 62
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_28
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 62
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 62
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 27
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 24
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 27
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 25
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 25
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rmx2se-fish_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 25
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

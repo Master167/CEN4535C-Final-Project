@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		rb2d = GetComponent<Rigidbody2D> ();
-		initialJumpHeightForce = jumpHeightForce;
+		this.rb2d = GetComponent<Rigidbody2D> ();
+		this.initialJumpHeightForce = jumpHeightForce;
 	}
 	
 	// Update is called once per frame
@@ -29,6 +29,12 @@ public class PlayerController : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.gameObject.CompareTag ("Ground")) {
 			isGrounded = true;
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D collision) {
+		if (collision.gameObject.CompareTag ("Collectible")) {
+			Destroy (collision.gameObject, 0f);
 		}
 	}
 }

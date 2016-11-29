@@ -12,13 +12,14 @@ public class OutsideInputSlider : MonoBehaviour {
 	private int index = 0;
 
 	void Start () {
-		mainMenu = GameObject.Find("GameManager");
-		MainMenu menu = mainMenu.GetComponent<MainMenu> ();
-		if (menu.isHard) {
-			this.inputs[this.index] = 0.2f;
-		} else {
-			this.inputs[this.index] = 0.5f;
-		}
+		//mainMenu = GameObject.Find("GameManager");
+		//MainMenu menu = mainMenu.GetComponent<MainMenu> ();
+		//if (menu.isHard) {
+			//this.inputs[this.index] = 0.2f;
+		//} else {
+			//this.inputs[this.index] = 0.5f;
+		//}
+		this.inputs[this.index] = 0.5f;
 		InvokeRepeating ("GetInput", 0f, 1.0f);
 	}
 
