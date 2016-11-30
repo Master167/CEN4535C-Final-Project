@@ -8,15 +8,37 @@ public class MainMenu : MonoBehaviour {
 
 	private Button easyButton;
 	private Button hardButton;
+	private Button menuButton;
 	private GameObject player;
+	private float score;
 
 	public bool isHard = true;
 
 	// Use this for initialization
 	void Start () {
 		Object.DontDestroyOnLoad (this);
-		Scene scene = SceneManager.GetActiveScene();
-		if (scene.name == "MainMenu") {
+	}
+
+	// Use this to attach scene events
+	void OnEnable() {
+		SceneManager.sceneLoaded += getObjects;
+		SceneManager.sceneUnloaded += getScore;
+	}
+
+	// Use this to detach scene events
+	void OnDisable() {
+		SceneManager.sceneLoaded -= getObjects;
+		SceneManager.sceneUnloaded -= getScore;
+	}
+
+	void getObjects(Scene scene, LoadSceneMode mode) {
+		if (scene.name == "MainScene") {
+			player = GameObject.Find ("Player");
+		} else if (scene.name == "Scoreboard") {
+			menuButton = GameObject.Find ("MenuButton").GetComponent<Button> ();
+			menuButton.onClick.AddListener (MoveToMenu);
+			GameObject.Find ("Score").GetComponent<Text> ().text = "Final Score: " + score;
+		} else if (scene.name == "MainMenu") {
 			easyButton = GameObject.Find ("Easy").GetComponent<Button> ();
 			hardButton = GameObject.Find ("Hard").GetComponent<Button> ();
 			easyButton.onClick.AddListener (loadEasy);
@@ -24,28 +46,9 @@ public class MainMenu : MonoBehaviour {
 		}
 	}
 
-	// Use this to attach scene events
-	void OnEnable() {
-		SceneManager.sceneLoaded += getPlayerObject;
-		SceneManager.sceneUnloaded += getScore;
-	}
-
-	// Use this to detach scene events
-	void OnDisable() {
-		SceneManager.sceneLoaded -= getPlayerObject;
-		SceneManager.sceneUnloaded -= getScore;
-	}
-
-	void getPlayerObject(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "MainScene") {
-			player = GameObject.Find ("Player");
-			Debug.Log ("Got Player");
-		}
-	}
-
 	void getScore(Scene scene) {
 		if (scene.name == "MainScene") {
-			Debug.Log ("pulling score");
+			score = player.GetComponent<PlayerController> ().playerScore;
 		}
 	}
 
@@ -61,6 +64,10 @@ public class MainMenu : MonoBehaviour {
 
 	void MoveToMainScene() {
 		SceneManager.LoadScene ("MainScene");
+	}
+
+	void MoveToMenu() {
+		Debug.Log ("Hello");
 	}
 
 }
