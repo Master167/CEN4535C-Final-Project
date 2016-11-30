@@ -4,7 +4,7 @@ using System.Collections;
 public class Item : MonoBehaviour {
 	
 	private float speed;
-
+	public float score;
 
 	void Start() {
 		this.speed = Random.Range (.01f, .06f);
