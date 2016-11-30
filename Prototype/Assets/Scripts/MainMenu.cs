@@ -22,17 +22,31 @@ public class MainMenu : MonoBehaviour {
 			easyButton.onClick.AddListener (loadEasy);
 			hardButton.onClick.AddListener (loadHard);
 		}
-
-		SceneManager.sceneLoaded += getPlayerObject();
-		SceneManager.sceneUnloaded += getScore();
 	}
 
-	 public void getPlayerObject() {
-		Debug.Log ("Hello");
+	// Use this to attach scene events
+	void OnEnable() {
+		SceneManager.sceneLoaded += getPlayerObject;
+		SceneManager.sceneUnloaded += getScore;
 	}
 
-	public void getScore() {
-		Debug.Log ("Goodbye");
+	// Use this to detach scene events
+	void OnDisable() {
+		SceneManager.sceneLoaded -= getPlayerObject;
+		SceneManager.sceneUnloaded -= getScore;
+	}
+
+	void getPlayerObject(Scene scene, LoadSceneMode mode) {
+		if (scene.name == "MainScene") {
+			player = GameObject.Find ("Player");
+			Debug.Log ("Got Player");
+		}
+	}
+
+	void getScore(Scene scene) {
+		if (scene.name == "MainScene") {
+			Debug.Log ("pulling score");
+		}
 	}
 
 	void loadEasy() {
