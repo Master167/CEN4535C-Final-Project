@@ -14,6 +14,9 @@ public class ItemSpawn : MonoBehaviour {
 	public float maxTime = 30f;
 	public float minTime = 5f;
 
+	public int topTiercount;
+	public int middleTiercount;
+	public int bottomTiercount;
 
 	//current time
 	private float time;
@@ -46,9 +49,23 @@ public class ItemSpawn : MonoBehaviour {
 	void Spawn(){
 		time = 0;
 
-		Instantiate(topTier, new Vector3(10f, transform.position.y + topTierYOffset, 0), Quaternion.identity);
-		Instantiate(middleTier, new Vector3(10f, transform.position.y + middleTierYOffset, 0), Quaternion.identity);
-		Instantiate(bottomTier, new Vector3(10f, transform.position.y + bottomTierYOffset, 0), Quaternion.identity);
+		//spwann at different times and spawn so max number of items on screen. 
+		int randomTierSpawn = UnityEngine.Random.Range(1,4);
+
+		switch (randomTierSpawn) {
+		case 1:
+					Instantiate (topTier, new Vector3 (10f, transform.position.y + topTierYOffset, 0), Quaternion.identity);
+			        break;
+
+		case 2:
+			Instantiate (middleTier, new Vector3 (10f, transform.position.y + middleTierYOffset, 0), Quaternion.identity);
+			break;
+
+		case 3:
+			Instantiate (bottomTier, new Vector3 (10f, transform.position.y + bottomTierYOffset, 0), Quaternion.identity);
+			break;
+		}
+		
 	}
 
 	//Sets the random time between minTime and maxTime

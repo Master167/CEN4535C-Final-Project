@@ -7,11 +7,14 @@ public class Item : MonoBehaviour {
 	public float score;
 
 	void Start() {
-		this.speed = Random.Range (.01f, .06f);
+		this.speed = Random.Range (.01f, .05f);
+
 	}
 
     void Update() {
 			transform.Translate(-speed, 0, 0);
+
+			
 	}
 	
 	void OnCollisionEnter2D(Collision2D collision) {
