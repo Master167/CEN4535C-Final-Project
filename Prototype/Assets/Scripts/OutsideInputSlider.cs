@@ -10,6 +10,7 @@ public class OutsideInputSlider : MonoBehaviour {
 	private GameObject mainMenu;
 	private float[] inputs = {-1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f};
 	private int index = 0;
+	private bool isHard;
 
 	void Start () {
 		//mainMenu = GameObject.Find("GameManager");
@@ -19,7 +20,10 @@ public class OutsideInputSlider : MonoBehaviour {
 		//} else {
 			//this.inputs[this.index] = 0.5f;
 		//}
+		// this.isHard = menu.isHard;
+		// For testing
 		this.inputs[this.index] = 0.5f;
+		this.isHard = false;
 		InvokeRepeating ("GetInput", 0f, 1.0f);
 	}
 
@@ -30,14 +34,25 @@ public class OutsideInputSlider : MonoBehaviour {
 
 	void GetInput() {
 		float input = Input.GetAxisRaw ("Vertical");
+		float s;
 		float currentLevel = this.level;
-		if (input > 0f) {
-			currentLevel = currentLevel + 0.1f;
+
+		if (isHard) {
+			s = 0.05f;
+		} else {
+			s = 0.1f;
+		}
+
+		if (input > 0f) {			
+			currentLevel = currentLevel + s;
 			if (currentLevel > 1f) {
 				currentLevel = 1;
 			}
 		} else if (input < 0) {
-			currentLevel = currentLevel - 0.1f;
+			if (isHard) {
+				s = s * 2;
+			}
+			currentLevel = currentLevel - s;
 			if (currentLevel < 0) {
 				currentLevel = 0;
 			}
