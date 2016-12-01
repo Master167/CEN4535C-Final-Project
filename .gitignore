@@ -34,4 +34,6 @@ ehthumbs.db
 [Tt]humbs.db
 [Dd]esktop.ini
 *.info
+*.meta
+*.sln
 Prototype/Library/**
