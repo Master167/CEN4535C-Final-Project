@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour {
 	public float jumpHeightForce;
 	public GameObject outsideInput;
 	public float playerScore = 0;
+    public bool isAirbourne;
 
 	private Rigidbody2D rb2d;
 	private bool isGrounded;
@@ -28,12 +29,14 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space) && isGrounded) {
 			rb2d.AddForce(Vector2.up * jumpHeightForce);
 			isGrounded = false;
+            isAirbourne = true;
 		}
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.gameObject.CompareTag ("Ground")) {
 			isGrounded = true;
+            isAirbourne = false;
 		}
 	}
 
