@@ -21,14 +21,14 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this to attach scene events
 	void OnEnable() {
-		SceneManager.sceneLoaded += getObjects;
-		SceneManager.sceneUnloaded += getScore;
+		//SceneManager.sceneLoaded += getObjects;
+		//SceneManager.sceneUnloaded += getScore;
 	}
 
 	// Use this to detach scene events
 	void OnDisable() {
-		SceneManager.sceneLoaded -= getObjects;
-		SceneManager.sceneUnloaded -= getScore;
+		//SceneManager.sceneLoaded -= getObjects;
+		//SceneManager.sceneUnloaded -= getScore;
 	}
 
 	void getObjects(Scene scene, LoadSceneMode mode) {

@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 8445910c99e564a6c92ed93dbc9ab886
+timeCreated: 1480963635
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BeachBall_0
+    21300002: BeachBall_1
+    21300004: BeachBall_2
+    21300006: BeachBall_3
+    21300008: BeachBall_4
+    21300010: BeachBall_5
+    21300012: BeachBall_6
+    21300014: BeachBall_7
+    21300016: BeachBall_8
+    21300018: BeachBall_9
+    21300020: BeachBall_10
+    21300022: BeachBall_11
+    21300024: BeachBall_12
+    21300026: BeachBall_13
+    21300028: BeachBall_14
+    21300030: BeachBall_15
+    21300032: BeachBall_16
+    21300034: BeachBall_17
+    21300036: BeachBall_18
+    21300038: BeachBall_19
+    21300040: BeachBall_20
+    21300042: BeachBall_21
+    21300044: BeachBall_22
+    21300046: BeachBall_23
+    21300048: BeachBall_24
+    21300050: BeachBall_25
+    21300052: BeachBall_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BeachBall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -34, y: 16}
+        - {x: -34, y: -31}
+        - {x: -24, y: -34}
+        - {x: 29, y: -34}
+        - {x: 34, y: -25}
+        - {x: 34, y: 20}
+        - {x: 18, y: 34}
+    - name: BeachBall_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32}
+        - {x: -34, y: 14}
+        - {x: -34, y: -29}
+        - {x: -22, y: -32}
+        - {x: 29, y: -32}
+        - {x: 34, y: -28}
+        - {x: 34, y: 32}
+    - name: BeachBall_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 310
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 32}
+        - {x: -17.5, y: 32}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: -19}
+        - {x: -20.5, y: -33}
+        - {x: 21.5, y: -33}
+        - {x: 33.5, y: -18}
+        - {x: 33.5, y: 16}
+        - {x: 32.5, y: 22}
+    - name: BeachBall_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 239
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 33.5}
+        - {x: -20.5, y: 33.5}
+        - {x: -33.5, y: 21.5}
+        - {x: -33.5, y: -28.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 22.5, y: -33.5}
+        - {x: 31.5, y: -19.5}
+        - {x: 33.5, y: -16.5}
+        - {x: 33.5, y: 17.5}
+    - name: BeachBall_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -33.5, y: 27}
+        - {x: -33.5, y: -22}
+        - {x: -29.5, y: -33}
+        - {x: 16.5, y: -33}
+        - {x: 33.5, y: -17}
+        - {x: 33.5, y: 29}
+        - {x: 21.5, y: 33}
+    - name: BeachBall_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 28.5}
+        - {x: 24, y: 32.5}
+        - {x: -28, y: 32.5}
+        - {x: -33, y: 21.5}
+        - {x: -33, y: -31.5}
+        - {x: -27, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 30, y: -18.5}
+        - {x: 33, y: -11.5}
+    - name: BeachBall_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 34}
+        - {x: -29, y: 34}
+        - {x: -35, y: 20}
+        - {x: -35, y: -27}
+        - {x: -17, y: -34}
+        - {x: 22, y: -34}
+        - {x: 32, y: -24}
+        - {x: 35, y: -9}
+        - {x: 35, y: 19}
+    - name: BeachBall_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 445
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 32.5}
+        - {x: -21.5, y: 29.5}
+        - {x: -34.5, y: 14.5}
+        - {x: -34.5, y: -12.5}
+        - {x: -25.5, y: -32.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 34.5, y: -22.5}
+        - {x: 34.5, y: 26.5}
+        - {x: 18.5, y: 32.5}
+    - name: BeachBall_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 440
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 35}
+        - {x: -32.5, y: -18}
+        - {x: -19.5, y: -29}
+        - {x: -10.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 32.5, y: -19}
+        - {x: 32.5, y: 35}
+    - name: BeachBall_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 443
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -32.5, y: 28.5}
+        - {x: -32.5, y: -22.5}
+        - {x: -20.5, y: -33.5}
+        - {x: 27.5, y: -33.5}
+        - {x: 32.5, y: -19.5}
+        - {x: 32.5, y: 27.5}
+        - {x: 26.5, y: 33.5}
+    - name: BeachBall_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 443
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 34}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -22}
+        - {x: -22.5, y: -34}
+        - {x: 34.5, y: -34}
+        - {x: 34.5, y: 27}
+        - {x: 21.5, y: 34}
+    - name: BeachBall_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 446
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 32}
+        - {x: -33.5, y: 19}
+        - {x: -33.5, y: -29}
+        - {x: -24.5, y: -33}
+        - {x: 32.5, y: -33}
+        - {x: 33.5, y: -32}
+        - {x: 33.5, y: 13}
+        - {x: 21.5, y: 32}
+    - name: BeachBall_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 442
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 34}
+        - {x: -24, y: 34}
+        - {x: -34, y: 24}
+        - {x: -34, y: -24}
+        - {x: -15, y: -35}
+        - {x: 28, y: -35}
+        - {x: 34, y: -18}
+        - {x: 34, y: 22}
+    - name: BeachBall_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 374
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 35}
+        - {x: -21.5, y: 35}
+        - {x: -33.5, y: 17}
+        - {x: -33.5, y: -22}
+        - {x: -20.5, y: -35}
+        - {x: 17.5, y: -35}
+        - {x: 33.5, y: -23}
+        - {x: 33.5, y: 22}
+    - name: BeachBall_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 379
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 31}
+        - {x: -21.5, y: 31}
+        - {x: -34.5, y: 18}
+        - {x: -34.5, y: -31}
+        - {x: 29.5, y: -31}
+        - {x: 34.5, y: -19}
+        - {x: 34.5, y: 15}
+        - {x: 29.5, y: 22}
+    - name: BeachBall_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 374
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 32.5}
+        - {x: -33, y: 25.5}
+        - {x: -33, y: -18.5}
+        - {x: -14, y: -32.5}
+        - {x: 32, y: -32.5}
+        - {x: 33, y: -27.5}
+        - {x: 33, y: 30.5}
+        - {x: 23, y: 32.5}
+    - name: BeachBall_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 374
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 30.5}
+        - {x: 7, y: 35.5}
+        - {x: -16, y: 35.5}
+        - {x: -34, y: 23.5}
+        - {x: -34, y: -17.5}
+        - {x: -26, y: -35.5}
+        - {x: 15, y: -35.5}
+        - {x: 30, y: -23.5}
+        - {x: 34, y: -12.5}
+        - {x: 34, y: 14.5}
+    - name: BeachBall_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 374
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 34}
+        - {x: -19, y: 34}
+        - {x: -35, y: 29}
+        - {x: -35, y: -16}
+        - {x: -21, y: -34}
+        - {x: 16, y: -34}
+        - {x: 34, y: -19}
+        - {x: 34, y: 14}
+        - {x: 32, y: 26}
+    - name: BeachBall_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 305
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 34.5}
+        - {x: -36.5, y: 24.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 32.5, y: -24.5}
+        - {x: 32.5, y: 25.5}
+        - {x: 16.5, y: 34.5}
+    - name: BeachBall_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 241
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 31.5}
+        - {x: -37, y: 19.5}
+        - {x: -37, y: -26.5}
+        - {x: -27, y: -31.5}
+        - {x: 20, y: -31.5}
+        - {x: 32, y: -13.5}
+        - {x: 32, y: 18.5}
+        - {x: 18, y: 31.5}
+    - name: BeachBall_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 170
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 34.5}
+        - {x: -18.5, y: 34.5}
+        - {x: -28.5, y: 32.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: -19.5}
+        - {x: -22.5, y: -34.5}
+        - {x: 13.5, y: -34.5}
+        - {x: 31.5, y: -18.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 29.5, y: 25.5}
+    - name: BeachBall_21
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 102
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 33}
+        - {x: 17, y: 34}
+        - {x: -30, y: 34}
+        - {x: -38, y: 20}
+        - {x: -38, y: -15}
+        - {x: -29, y: -35}
+        - {x: 16, y: -35}
+        - {x: 29, y: -23}
+        - {x: 31, y: -10}
+        - {x: 31, y: 16}
+    - name: BeachBall_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 34
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -35, y: 28}
+        - {x: -35, y: -22}
+        - {x: -24, y: -35}
+        - {x: 34, y: -35}
+        - {x: 34, y: 34}
+    - name: BeachBall_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 240
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 32.5}
+        - {x: -23, y: 32.5}
+        - {x: -34, y: 17.5}
+        - {x: -34, y: -20.5}
+        - {x: -24, y: -32.5}
+        - {x: 19, y: -32.5}
+        - {x: 34, y: -25.5}
+        - {x: 34, y: 15.5}
+        - {x: 22, y: 28.5}
+    - name: BeachBall_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 173
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 32}
+        - {x: -24.5, y: 32}
+        - {x: -34.5, y: 19}
+        - {x: -34.5, y: -15}
+        - {x: -25.5, y: -32}
+        - {x: 16.5, y: -32}
+        - {x: 21.5, y: -29}
+        - {x: 34.5, y: -17}
+        - {x: 34.5, y: 19}
+    - name: BeachBall_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 34
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 33.5}
+        - {x: -34.5, y: 17.5}
+        - {x: -34.5, y: -12.5}
+        - {x: -31.5, y: -21.5}
+        - {x: -15.5, y: -33.5}
+        - {x: 29.5, y: -33.5}
+        - {x: 34.5, y: -18.5}
+        - {x: 34.5, y: 24.5}
+        - {x: 25.5, y: 33.5}
+    - name: BeachBall_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 105
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 31.5}
+        - {x: -35.5, y: 12.5}
+        - {x: -35.5, y: -9.5}
+        - {x: -32.5, y: -8.5}
+        - {x: -32.5, y: -12.5}
+        - {x: -30.5, y: -26.5}
+        - {x: -16.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 35.5, y: -27.5}
+        - {x: 35.5, y: 19.5}
+        - {x: 29.5, y: 31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
