@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\OutsideInputSlider.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\UserInterface.cs" />
+     <None Include="Assets\Materials\champagne_limousines\Font-license-readme.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
