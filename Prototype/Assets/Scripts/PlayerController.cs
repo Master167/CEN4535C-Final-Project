@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
@@ -28,13 +29,23 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		bool jumping = false;
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			jumping = true;
+		} else {
+			foreach (Touch touch in Input.touches) {
+				if (touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled) {
+					jumping = true;	
+				}
+			}
+		}
 		OutsideInputSlider script = outsideInput.GetComponent<OutsideInputSlider> ();
 		if (script != null) {
 			jumpHeightForce = initialJumpHeightForce * script.level;
 		} else {
 			jumpHeightForce = initialJumpHeightForce * .5f;
 		}
-		if (Input.GetKeyDown (KeyCode.Space) && isGrounded) {
+		if (jumping && isGrounded) {
 			rb2d.AddForce(Vector2.up * jumpHeightForce);
 			isGrounded = false;
 			isAirbourne = true;

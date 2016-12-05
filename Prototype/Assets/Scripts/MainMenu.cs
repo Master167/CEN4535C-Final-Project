@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
@@ -19,7 +20,9 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Object.DontDestroyOnLoad (this);
+		if (GameObject.Find ("GameManager").CompareTag(this.tag)) {
+			Object.DontDestroyOnLoad (this);
+		}
 	}
 
 	void Update()
@@ -37,12 +40,12 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this to attach scene events
 	void OnEnable() {
-		//SceneManager.sceneLoaded += setupScene;
+		SceneManager.sceneLoaded += setupScene;
 	}
 
 	// Use this to detach scene events
 	void OnDisable() {
-		//SceneManager.sceneLoaded -= setupScene;
+		SceneManager.sceneLoaded -= setupScene;
 	}
 
 	void setupScene(Scene scene, LoadSceneMode mode) {
