@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class DestroyByTime : MonoBehaviour {
-	public float lifetime = 15.0f;
+	public float lifetime = 20.0f;
 
 	void Start(){
 	
