@@ -9,7 +9,7 @@ public class ItemSpawn : MonoBehaviour {
 
 	public float topTierYOffset = 1.43f;
 	public float middleTierYOffset = 0.57f;
-	public float bottomTierYOffset = -1.43f;
+	public float bottomTierYOffset = -1.75f;
 
 	public float maxTime = 30f;
 	public float minTime = 5f;
