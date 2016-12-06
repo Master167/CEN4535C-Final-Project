@@ -8,57 +8,52 @@ public class OutsideInputSlider : MonoBehaviour {
 	public float level = 0.5f;
 
 	private GameObject mainMenu;
-	private float[] inputs = {-1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f};
+	private float[] inputs = {0.5f, 0.5f, -1f, -1f, -1f, -1f, -1f, -1f, -1f, -1f};
 	private int index = 0;
 	private bool isHard;
 
+    // Simulate the DataStream from the Meter
+    private float[] data = { 0.5f, 0.5f, 0.5f, 0.6f, 0.6f, 0.6f, 0.7f, 0.7f, 0.7f, 0.8f, 0.8f, 0.8f, 0.9f, 0.9f, 0.9f, 1f, 1f, 1f, 0.8f, 0.8f, 0.7f, 0.7f, 0.6f, 0.6f, 0.5f, 0.5f, 0.4f, 0.4f, 0.3f, 0.2f };
+    private int dataIndex;
+
 	void Start () {
+        this.dataIndex = 0;
 		mainMenu = GameObject.Find("GameManager");
 		MainMenu menu = mainMenu.GetComponent<MainMenu> ();
-		if (menu.isHard) {
-			this.inputs[this.index] = 0.2f;
-		} else {
-			this.inputs[this.index] = 0.5f;
-		}
-		this.isHard = menu.isHard;
-		// For testing
-		//this.inputs[this.index] = 0.5f;
-		this.isHard = false;
+        slider.normalizedValue = normalizeLevel();
+        this.isHard = menu.isHard;
 		InvokeRepeating ("GetInput", 0f, 1.0f);
 	}
 
 	void Update() {
-		level = normalizeLevel ();
-		slider.normalizedValue = level;
+        level = normalizeLevel ();
+        slider.normalizedValue = level;
 	}
 
 	void GetInput() {
-		float input = Input.GetAxisRaw ("Vertical");
+		float previousInput;
 		float s;
-		float currentLevel = this.level;
+		float newInput;
+        float result;
+
+        previousInput = this.data[dataIndex];
+        dataIndex = (dataIndex + 1) % this.data.Length;
+        newInput = this.data[dataIndex];
 
 		if (isHard) {
-			s = 0.05f;
+			s = 0.5f;
 		} else {
-			s = 0.1f;
+			s = 1f;
 		}
 
-		if (input > 0f) {			
-			currentLevel = currentLevel + s;
-			if (currentLevel > 1f) {
-				currentLevel = 1;
-			}
-		} else if (input < 0) {
-			if (isHard) {
-				s = s * 2;
-			}
-			currentLevel = currentLevel - s;
-			if (currentLevel < 0) {
-				currentLevel = 0;
-			}
-		}
-		this.index = (index + 1) % this.inputs.Length;
-		this.inputs [this.index] = currentLevel;
+        if (previousInput > newInput && isHard)
+        {
+            s = s * 2;
+        }
+        result = newInput * s;
+
+        this.index = (index + 1) % this.inputs.Length;
+		this.inputs [this.index] = result;
 
 	}
 
