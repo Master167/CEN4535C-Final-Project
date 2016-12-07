@@ -17,12 +17,8 @@ public class MainMenu : MonoBehaviour {
 	public bool isHard = true;
 	public float maxTime = 120f;
 
-
-	// Use this for initialization
 	void Start () {
-		if (GameObject.Find ("GameManager").CompareTag(this.tag)) {
-			Object.DontDestroyOnLoad (this);
-		}
+		Object.DontDestroyOnLoad (this);
 	}
 
 	void Update()
