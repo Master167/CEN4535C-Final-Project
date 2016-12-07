@@ -40,12 +40,12 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this to attach scene events
 	void OnEnable() {
-		//SceneManager.sceneLoaded += setupScene;
+		SceneManager.sceneLoaded += setupScene;
 	}
 
 	// Use this to detach scene events
 	void OnDisable() {
-		//SceneManager.sceneLoaded -= setupScene;
+		SceneManager.sceneLoaded -= setupScene;
 	}
 
 	void setupScene(Scene scene, LoadSceneMode mode) {
