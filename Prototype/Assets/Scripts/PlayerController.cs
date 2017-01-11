@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
 			jumpHeightForce = initialJumpHeightForce * .5f;
 		}
 		if (jumping && isGrounded) {
-			rb2d.AddForce(Vector2.up * jumpHeightForce);
+			rb2d.AddForce(Vector2.down * jumpHeightForce);
 			isGrounded = false;
 			isAirbourne = true;
 
